@@ -1,0 +1,6 @@
+{
+  "name": "public-display",
+  "short_name": "public-display",
+  "start_url": "/",
+  "display": "standalone"
+}
