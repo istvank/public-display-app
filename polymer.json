@@ -1,14 +1,16 @@
 {
   "entrypoint": "index.html",
-  "shell": "src/public-display-app/public-display-app.html",
+  "shell": "src/public-display-app.html",
   "fragments": [
+    "src/public-display-app.html",
+    "src/public-display.html"
   ],
   "sources": [
     "src/**/*",
     "images/**/*",
     "bower.json"
   ],
-  "includeDependencies": [
+  "extraDependencies": [
     "bower_components/webcomponentsjs/webcomponents-lite.min.js"
   ]
 }
